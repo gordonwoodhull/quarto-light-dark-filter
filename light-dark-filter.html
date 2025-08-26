@@ -231,10 +231,16 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="no-caption-no-cross-ref" class="level3">
+<h3 class="anchored" data-anchor-id="no-caption-no-cross-ref">no caption, no cross-ref</h3>
+<p><img src="elephant.png" class="light-content img-fluid"><img src="elephant-dark.png" class="dark-content img-fluid"></p>
+</section>
+<section id="caption-no-cross-ref" class="level3">
+<h3 class="anchored" data-anchor-id="caption-no-cross-ref">caption, no cross-ref</h3>
 <div class="light-content">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="elephant.png" class="img-fluid figure-img"></p>
+<p><img src="elephant.png" class="dark-div img-fluid figure-img"></p>
 <figcaption>drawing of elephant</figcaption>
 </figure>
 </div>
@@ -242,11 +248,38 @@ ul.task-list li input[type="checkbox"] {
 <div class="dark-content">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="elephant-dark.png" class="img-fluid figure-img"></p>
+<p><img src="elephant-dark.png" class="dark-div img-fluid figure-img"></p>
 <figcaption>drawing of elephant</figcaption>
 </figure>
 </div>
 </div>
+</section>
+<section id="no-caption-cross-ref" class="level3">
+<h3 class="anchored" data-anchor-id="no-caption-cross-ref">no caption, cross-ref</h3>
+<div id="fig-elephant" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-elephant-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="elephant.png" id="fig-elephant" class="light-content img-fluid figure-img"><img src="elephant-dark.png" id="fig-elephant" class="dark-content img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-elephant-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="caption-and-cross-ref" class="level3">
+<h3 class="anchored" data-anchor-id="caption-and-cross-ref">caption and cross-ref</h3>
+<div id="fig-elephant" class="dark-image quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-elephant-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="elephant.png" class="light-content img-fluid figure-img"><img src="elephant-dark.png" class="dark-content img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-elephant-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: drawing of elephant
+</figcaption>
+</figure>
+</div>
+</section>
 
 </main>
 <!-- /main column -->
