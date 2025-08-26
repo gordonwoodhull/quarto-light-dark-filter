@@ -13,4 +13,20 @@ filters:
   - add-dark-image.lua
 ---
 
-![drawing of elephant](elephant.png)
+
+### no caption, no cross-ref
+
+![](elephant.png){.dark-image}
+
+### caption, no cross-ref
+
+![drawing of elephant](elephant.png){.dark-div}
+
+### no caption, cross-ref
+
+![](elephant.png){#fig-elephant .dark-image}
+
+### caption and cross-ref
+
+![drawing of elephant](elephant.png){#fig-elephant .dark-image}
+
