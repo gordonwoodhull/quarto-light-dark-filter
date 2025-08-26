@@ -3,7 +3,6 @@ function Figure(fig)
     not fig.content[1].content[1].attr.classes:includes "dark-div" then
     return nil
   end
-  quarto.log.output(fig)
   local darkfig = fig:walk {}
   darkfig.content[1].content[1].src = darkfig.content[1].content[1].src:gsub("%.png", "-dark.png")
   return {
