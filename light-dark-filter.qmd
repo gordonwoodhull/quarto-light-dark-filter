@@ -1,0 +1,16 @@
+---
+title: automatic dark image
+format: html
+brand:
+  color:
+    background:
+      light: "#fff"
+      dark: "#000"
+    foreground:
+      light: "#000"
+      dark: "#fff"
+filters:
+  - add-dark-image.lua
+---
+
+![drawing of elephant](elephant.png)
