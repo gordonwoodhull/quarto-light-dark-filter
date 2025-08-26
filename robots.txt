@@ -1,0 +1,1 @@
+Sitemap: https://gordonwoodhull.github.io/quarto-light-dark-filter/sitemap.xml
