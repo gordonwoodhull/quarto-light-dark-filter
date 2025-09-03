@@ -20,7 +20,7 @@ filters:
 
 ### caption, no cross-ref
 
-![drawing of elephant](elephant.png){.dark-div}
+![drawing^[footnote] of elephant](elephant.png){.dark-div}
 
 ### no caption, cross-ref
 
